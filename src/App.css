@@ -1,0 +1,39 @@
+input {
+  width: 60%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+div {
+  margin-top: 20px;
+}
+
+.summary-box {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 14px;
+  max-height: 200px;
+  /* max-width: 300px; */
+  overflow-y: auto;
+}
+
+.summary-box h3 {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  color: #111827;
+}
+
+.summary-box p {
+  margin: 0;
+  line-height: 1.5;
+  color: #374151;
+}
+
