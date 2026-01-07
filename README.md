@@ -11,7 +11,7 @@ A simple React web application that takes a public website URL, fetches its cont
 - Summarises website content using Groq AI
 - Loading spinner while summarising
 - Clean and responsive UI
-- Environment variables kept safe with `.env` and `.gitignore`
+  
 
 ---
 
