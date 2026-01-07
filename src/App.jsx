@@ -22,16 +22,16 @@ function App() {
     try {
       let finalUrl = url.trim();
 
-      // ✅ Ensure URL starts with http/https
+      //  URL starts with http/https
       if (!finalUrl.startsWith("http://") && !finalUrl.startsWith("https://")) {
         finalUrl = "https://" + finalUrl;
       }
 
-      // ✅ Fetch visible website text
+      //  Fetch visible website text
       const textResponse = await fetch(`https://r.jina.ai/${finalUrl}`);
       const websiteText = await textResponse.text();
 
-      // ✅ Send text to Groq AI
+      //  Send text to Groq AI
       const aiSummary = await getSummary(websiteText);
 
       setSummary(aiSummary);

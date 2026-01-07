@@ -21,7 +21,7 @@
 
 body {
   margin: 0;
-  background-color:#D3DAD9; 
+  background-color:#c3c9c8; 
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -44,7 +44,7 @@ h2 {
   margin-bottom: 16px;
   font-size: 1.75rem;
   font-weight: 600;
-  color: #4f46e5; /* indigo */
+  color: #4f46e5; 
 }
 
 /* Input + Button wrapper */
